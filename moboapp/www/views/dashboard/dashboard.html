@@ -1,0 +1,32 @@
+
+<ion-view title="place order">
+  <ion-content>
+
+    <form ng-submit="placeOrder(newOrder)">
+
+      <div class="list">
+        <label class="item item-input">
+          <input type="text" placeholder="Please write your Order" ng-model="newOrder.title">
+        </label>
+
+        <label class="item item-input">
+          <textarea placeholder="Comments" ng-model="newOrder.text"></textarea>
+        </label>
+
+        <button class="item item-button button-positive" type="submit">submit</button>
+      </div>
+
+    </form>
+
+
+  </ion-content>
+</ion-view>
+
+
+
+
+
+
+
+
+
